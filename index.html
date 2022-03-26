@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Js Modal</title>
+  <!-- google material icon -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- custom css -->
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+
+  <div class="container-bg">
+  </div>
+
+  <div class="overlapping-container">
+    <div class="container"><button class="details-btn" onclick="showModal()">Details</button>
+      <div class="details" id="details">
+
+        <button class="close" id="close-btn" onclick="closeModal()" ><span  class="material-icons">close</span></button>
+        <h3 class="heading">The coastline at Limassol, Cyprus</h3>
+        <pre class="details-text">
+          It may look sleepy here, but Limassol’s recently revitalized waterfront buzzes with both industry and recreation, as this city on Cyprus’ southern coast is the island nation’s top seaport and second most populous city. Limassol is a hub of international trade in the Eastern Mediterranean, and an economic center for much of the region. But it’s the craggy vistas, idyllic weather, and generous helpings of ancient historical landmarks that garner increasing attention from top travel mags and savvy vacationers. It’s still not fully on the package-tour radar, and that’s a good thing for folks who enjoy quietly splendid moments like this one.
+        </pre>
+      </div>
+    </div>
+  </div>
+  <script src="./scripts/script.js"></script>
+</body>
+
+</html>
